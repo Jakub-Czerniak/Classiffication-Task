@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8c9801bc-8b7b-4c1e-b509-cd9ae50fe8e6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>K-nearest-lib.py</StartupFile>
+    <StartupFile>K-nearest.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="K-nearest-lib.py" />
+    <Compile Include="K-nearest.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\house-votes-84.data" />
