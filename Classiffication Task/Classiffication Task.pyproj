@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8c9801bc-8b7b-4c1e-b509-cd9ae50fe8e6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>K-nearest.py</StartupFile>
+    <StartupFile>OneVsAll-Perceptron.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,14 +22,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="K-nearest.py" />
+    <Compile Include="OneVsAll-Perceptron.py" />
+    <Compile Include="Perceptron.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\house-votes-84.data" />
     <Content Include="Data\house-votes-84.names" />
     <Content Include="Data\Index%281%29" />
+    <Content Include="IrisData\iris.data" />
+    <Content Include="IrisData\iris.names" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="IrisData\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
