@@ -31,6 +31,7 @@
     <Content Include="Data\Index%281%29" />
     <Content Include="IrisData\iris.data" />
     <Content Include="IrisData\iris.names" />
+    <Content Include="MlPerceptronSciKit.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />

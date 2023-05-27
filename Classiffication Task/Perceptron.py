@@ -50,7 +50,7 @@ for index, row in training_data.iterrows():
     else:
         prediction = -1
     if(prediction != y[index]):
-        weights = weights + learning_rate * (y[index] - dot_product) * row 
+        weights = weights + learning_rate * (y[index] - prediction) * row 
 
 democrat_tp=0
 democrat_fp=0
